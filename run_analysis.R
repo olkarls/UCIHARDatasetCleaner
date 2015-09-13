@@ -78,12 +78,6 @@ colnames(df) <- gsub("^t","time_", colnames(df))
 colnames(df) <- gsub("^f","fft_", colnames(df))
 colnames(df) <- tolower(colnames(df))
 
-#"fBodyGyro-std()-Y"
-#"fBodyGyro-std()-Z"
-#"tBodyAcc-mean()-X"
-#"tBodyAcc-mean()-Y"
-#"tBodyAcc-mean()-Z"
-
 # group by activity and calculate the mean for all columns except activity
 by_activity_and_subject <- df %>% group_by(activity, subject) %>% summarise_each(funs(mean), -contains('activity'), -contains('subject'))
 
