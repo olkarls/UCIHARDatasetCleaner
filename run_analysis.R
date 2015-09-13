@@ -83,6 +83,6 @@ by_activity_and_subject <- df %>% group_by(activity, subject) %>% summarise_each
 
 # write the cleaned dataset to txt
 print("Writing cleaned dataset to file 'tidy_dataset.csv'...")
-write.table(by_activity_and_subject, 'tidy_dataset.csv', row.names=FALSE)
+write.table(by_activity_and_subject, 'tidy_dataset.txt', row.names=FALSE)
 
 options(warn=1)
