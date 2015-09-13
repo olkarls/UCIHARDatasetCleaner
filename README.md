@@ -43,4 +43,4 @@ To make the variable names more explainable and readable the script replaces all
 
 The script uses the library [dplyr](https://cran.rstudio.com/web/packages/dplyr/) to group and calculate the mean.
 
-The script produces [tidy_dataset.csv](https://github.com/olkarls/UCIHARDatasetCleaner/blob/master/tidy_dataset.txt).
+The script produces [tidy_dataset.txt](https://github.com/olkarls/UCIHARDatasetCleaner/blob/master/tidy_dataset.txt).
