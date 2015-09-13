@@ -23,7 +23,7 @@ The assignment doesn't list which columns to include so my interpretation of the
 
 To extract the data the script selects `activity`, `subject` and all the columns that matches this regexp: `\S*-(std|mean)\(\)-(X|Y|Z)` which looks for `colnames` with names that starts with any number of whitespace followed by a dash, than includes the string **std** or **mean** followed by parenthesis, then another dash then any of the characters X, Y or Z.
 
-All the columns included is listed in the [code book](https://github.com/olkarls/UCIHARDatasetCleaner/code_book.md).
+All the columns included is listed in the [code book](https://github.com/olkarls/UCIHARDatasetCleaner/blob/master/code_book.md).
 
 
 
@@ -35,7 +35,7 @@ As explained in the diagram above the script merges the names from `activity_lab
 
 
 
-To make the variable names more explainable and readable the script replaces all abbreviations with their full name in `snake_case` instead of `PascalCase`. All variable names that are used is listed in the [code book](https://github.com/olkarls/UCIHARDatasetCleaner/code_book.md).
+To make the variable names more explainable and readable the script replaces all abbreviations with their full name in `snake_case` instead of `PascalCase`. All variable names that are used is listed in the [code book](https://github.com/olkarls/UCIHARDatasetCleaner/blob/master/code_book.md).
 
 
 
@@ -43,4 +43,4 @@ To make the variable names more explainable and readable the script replaces all
 
 The script uses the library [dplyr](https://cran.rstudio.com/web/packages/dplyr/) to group and calculate the mean.
 
-The script produces [tidy_dataset.csv](https://github.com/olkarls/UCIHARDatasetCleaner/tidy_dataset.csv).
+The script produces [tidy_dataset.csv](https://github.com/olkarls/UCIHARDatasetCleaner/blob/master/tidy_dataset.csv).
