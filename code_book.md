@@ -1,5 +1,5 @@
 |Original Name         |More descriptive Name                           |
-|-----------------------------------------------------------------------|
+|----------------------|------------------------------------------------|
 |activity              |activity                                        |
 |subject               |subject                                         |
 |tBodyAcc-mean()-X     |time_body_acceleration_mean_x                   |
