@@ -90,12 +90,10 @@ To make the variable names more explainable and readable the script replaces all
 |fBodyGyro-std()-Y     |fft_body_gyro_standard_deviation_y              |
 |fBodyGyro-std()-Z     |fft_body_gyro_standard_deviation_z              |
 
-All variable names that are used is listed in the [code book](https://github.com/olkarls/UCIHARDatasetCleaner/blob/master/code_book.md).
+All variable names that are used is listed along with their units in the [code book](https://github.com/olkarls/UCIHARDatasetCleaner/blob/master/code_book.md).
 
 
 
 ### Creates an independent tidy data set with the average of each variable for each activity and each subject
 
-The script uses the library [dplyr](https://cran.rstudio.com/web/packages/dplyr/) to group and calculate the mean.
-
-The script produces [tidy_dataset.txt](https://github.com/olkarls/UCIHARDatasetCleaner/blob/master/tidy_dataset.txt).
+The script uses the library [dplyr](https://cran.rstudio.com/web/packages/dplyr/) to group and calculate the mean and produces [tidy_dataset.txt](https://github.com/olkarls/UCIHARDatasetCleaner/blob/master/tidy_dataset.txt).
