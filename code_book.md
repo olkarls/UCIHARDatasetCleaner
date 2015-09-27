@@ -21,6 +21,7 @@ For each record it is provided:
 Variables that start with **time_** has values from 3-axial (X, Y, Z) raw signals captured at a constant rate of 50 Hz
 Variables that start with **fft_** has values from 3-axial (X, Y, Z) raw signals captured at a constant rate of 50 Hz with a Fast Fourier Transform.
 
+The data in this set consists of the average of each variable for each activity and each subject from the original dataset.
 
 |Variable name                                   |
 |------------------------------------------------|
