@@ -18,8 +18,8 @@ For each record it is provided:
 
 **subject** holds an identifier of the subject who carried out the experiment a number between 1 and 30.
 
-Variables that start with `time_` has values from 3-axial (X, Y, Z) raw signals captured at a constant rate of 50 Hz
-Variables that start with `fft_` has values from 3-axial (X, Y, Z) raw signals captured at a constant rate of 50 Hz with a Fast Fourier Transform.
+Variables that start with **time_** has values from 3-axial (X, Y, Z) raw signals captured at a constant rate of 50 Hz
+Variables that start with **fft_** has values from 3-axial (X, Y, Z) raw signals captured at a constant rate of 50 Hz with a Fast Fourier Transform.
 
 
 |Variable name                                   |
